@@ -1,14 +1,15 @@
 .left-sidebar {
     width: 20rem;
     height:100dvh;
-    border-right: 1px solid rgb(231, 226, 226);
+    border-right: 1px solid rgb(89, 82, 82);
     margin-left: 1rem;
+    padding-top: 3rem;
 }
 
 .insta-logo{
     display: flex;
     align-items: center;
-    padding: 1rem;
+    /* padding: 1rem; */
     font-size: 25px;
     font-weight: 700;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -33,3 +34,11 @@
     cursor: pointer;
   
 } 
+
+.sub-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16rem;
+}

@@ -1,5 +1,5 @@
 import '../styles/left-sidebar.css';
-import { House, Search, Compass,Tv, Send, Heart, BadgePlus, User } from 'lucide-react';
+import { House, Search, Compass,Tv, Send, Heart, BadgePlus, User, AtSign,Menu } from 'lucide-react';
 
 const nav = [
   {
@@ -56,7 +56,18 @@ function LeftSidebar() {
         <div className='insta-logo'>Instagram</div>
         <div className='nav-items'>{navItems}</div>
         
-        <div className='sub-content'></div>
+        <div className='sub-content'>
+            <div className='nav-item'>
+        <AtSign/>
+        <div>Thread</div>
+        </div>
+
+        <div className='nav-item'>
+            <Menu/>
+            <div>More</div>
+        </div>
+        </div>
+
       
     </div>
   );

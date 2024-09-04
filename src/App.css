@@ -15,8 +15,21 @@ body {
   width: 100%;
   min-height: 100dvh;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  /* align-items: center; */
+  /* justify-content: space-between; */
   color: white!important;
   background-color: #272727;
+  gap: 18rem;
 }
+
+.body-right {
+  width: 100%;
+  display: flex;
+  background-color: #272727;
+  gap: 4rem;
+}
+
+.body-right-main{
+  width: 37rem;
+}
+

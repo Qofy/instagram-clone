@@ -8,9 +8,9 @@
 .right-sidebar {
   width: 25rem;
     height:100dvh;
-    margin-left: 1rem;
-    margin-right: 16rem;
-    padding-top: 4rem;
+    /* margin-left: 1rem; */
+    margin-right: 6rem;
+     padding-top: 3rem;
 }
 
 .first-compo, .second-compo {

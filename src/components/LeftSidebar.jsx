@@ -56,7 +56,7 @@ function LeftSidebar() {
         <div className='insta-logo'>Instagram</div>
         <div className='nav-items'>{navItems}</div>
         
-        <div className='sub-content'>
+        <div className='sub-contents'>
             <div className='nav-item'>
         <AtSign/>
         <div>Thread</div>

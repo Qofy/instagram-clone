@@ -67,3 +67,34 @@
   }
   
  
+.content{
+  background-color: #dc2743;
+  width: 40rem;
+  margin-top: 8rem;
+}
+.sub-content{
+  background-color: #cc2366;
+}
+.content-head, .content-name{
+  display: flex;
+}
+.content-head{
+  gap: .8rem;
+}
+.content-img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+ 
+.content-post{
+  background-color: #bc1888;
+  width: 33rem;
+  height:35rem; 
+  object-fit: cover;
+}
+.content-post img{
+  width: 33rem;
+  height: 35rem;
+  object-fit: cover;
+}

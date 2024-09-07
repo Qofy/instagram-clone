@@ -26,10 +26,11 @@ body {
   display: flex;
   background-color: #272727;
   gap: 5rem;
-  margin-left: 39rem;
+  margin-left: 34rem;
 }
 
 .body-right-main{
-  width: 37rem;
+  width: 42rem;
+   /* background-color: aqua;  */
 }
 

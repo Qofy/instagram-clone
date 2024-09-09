@@ -79,8 +79,8 @@ const contentBody = [{
 
 {
   imgs: bedu,
-  name: '_khelPencilArt',
-  postTime: '.9h',
+  name: 'iam__bedu_emasa',
+  postTime: '9h',
   sign: '...',
   post: bedu,
   like: <Heart />,
@@ -95,10 +95,42 @@ const contentBody = [{
 
 {
   imgs: ockily,
-  name: '_khelPencilArt',
+  name: '_occkily_fy_lix',
   postTime: '9h',
   sign: '...',
   post: ockily,
+  like: <Heart />,
+  comment: <MessageCircle />,
+  share: <Send />,
+  save: <Bookmark />,
+  likeNum: '1.2k likes',
+  discription: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+  commentNum: 'view all 1.2k comments',
+  addComment: 'Add a comment...',
+},
+
+{
+  imgs: ohemaa,
+  name: 'ohenemaa_fio_beauty ',
+  postTime: '9h',
+  sign: '...',
+  post: ohemaa,
+  like: <Heart />,
+  comment: <MessageCircle />,
+  share: <Send />,
+  save: <Bookmark />,
+  likeNum: '1.2k likes',
+  discription: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+  commentNum: 'view all 1.2k comments',
+  addComment: 'Add a comment...',
+},
+
+{
+  imgs: alex,
+  name: 'alexender',
+  postTime: '9h',
+  sign: '...',
+  post: alex,
   like: <Heart />,
   comment: <MessageCircle />,
   share: <Send />,
@@ -115,6 +147,7 @@ const contentBody = [{
 function MainBody() {
  const storyBodyContent = storyBody.map((story, index) =>{
   return(
+    
     <div className="story-body" key={index}>
       <div className="story-body-img">
         <img className='story-image' src={story.img} alt="" />
@@ -134,7 +167,7 @@ const contentBodyContent = contentBody.map((content, index) => {
           <img className='profile-img' src={content.imgs} alt="" />
           <p>{content.name}</p>
           <p>
-          &bull;{content.postTime}
+          &bull;<span  className='time'>{content.postTime}</span>
           </p>
         </div>
         <div className="sign">
@@ -184,10 +217,11 @@ const contentBodyContent = contentBody.map((content, index) => {
       <p className='ff'>Following</p>
     </div>
     <hr />
-
+    <ChevronLeft className='left-arrow'/>
     <div className="story-content">
     {storyBodyContent}
     </div>
+    <ChevronRight className='right-arrow'/>
 <div className='body-content'>
     {contentBodyContent}
     </div>
